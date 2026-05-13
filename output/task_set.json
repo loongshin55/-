@@ -1,0 +1,478 @@
+{
+  "periodic": {
+    "p1": {
+      "r": 1,
+      "p": 6,
+      "e": 3,
+      "d": 3,
+      "w": 12,
+      "preempt": 1
+    },
+    "p2": {
+      "r": 2,
+      "p": 6,
+      "e": 2,
+      "d": 6,
+      "w": 10,
+      "preempt": 1
+    },
+    "p3": {
+      "r": 1,
+      "p": 12,
+      "e": 3,
+      "d": 3,
+      "w": 14,
+      "preempt": 0
+    },
+    "p4": {
+      "r": 3,
+      "p": 12,
+      "e": 2,
+      "d": 12,
+      "w": 16,
+      "preempt": 0
+    },
+    "p5": {
+      "r": 1,
+      "p": 24,
+      "e": 2,
+      "d": 12,
+      "w": 8,
+      "preempt": 1
+    },
+    "p6": {
+      "r": 2,
+      "p": 24,
+      "e": 3,
+      "d": 24,
+      "w": 18,
+      "preempt": 1
+    }
+  },
+  "frame_size": 3,
+  "horizon": 72,
+  "workload_density": 1.4583,
+  "expanded_job_count": 42,
+  "expanded_jobs": [
+    {
+      "job_id": "p1_j1",
+      "task_id": "p1",
+      "release_time": 1,
+      "execution_time": 3,
+      "relative_deadline": 3,
+      "absolute_deadline": 3,
+      "energy_demand": 12,
+      "preemptive": 1
+    },
+    {
+      "job_id": "p1_j2",
+      "task_id": "p1",
+      "release_time": 7,
+      "execution_time": 3,
+      "relative_deadline": 3,
+      "absolute_deadline": 9,
+      "energy_demand": 12,
+      "preemptive": 1
+    },
+    {
+      "job_id": "p1_j3",
+      "task_id": "p1",
+      "release_time": 13,
+      "execution_time": 3,
+      "relative_deadline": 3,
+      "absolute_deadline": 15,
+      "energy_demand": 12,
+      "preemptive": 1
+    },
+    {
+      "job_id": "p1_j4",
+      "task_id": "p1",
+      "release_time": 19,
+      "execution_time": 3,
+      "relative_deadline": 3,
+      "absolute_deadline": 21,
+      "energy_demand": 12,
+      "preemptive": 1
+    },
+    {
+      "job_id": "p1_j5",
+      "task_id": "p1",
+      "release_time": 25,
+      "execution_time": 3,
+      "relative_deadline": 3,
+      "absolute_deadline": 27,
+      "energy_demand": 12,
+      "preemptive": 1
+    },
+    {
+      "job_id": "p1_j6",
+      "task_id": "p1",
+      "release_time": 31,
+      "execution_time": 3,
+      "relative_deadline": 3,
+      "absolute_deadline": 33,
+      "energy_demand": 12,
+      "preemptive": 1
+    },
+    {
+      "job_id": "p1_j7",
+      "task_id": "p1",
+      "release_time": 37,
+      "execution_time": 3,
+      "relative_deadline": 3,
+      "absolute_deadline": 39,
+      "energy_demand": 12,
+      "preemptive": 1
+    },
+    {
+      "job_id": "p1_j8",
+      "task_id": "p1",
+      "release_time": 43,
+      "execution_time": 3,
+      "relative_deadline": 3,
+      "absolute_deadline": 45,
+      "energy_demand": 12,
+      "preemptive": 1
+    },
+    {
+      "job_id": "p1_j9",
+      "task_id": "p1",
+      "release_time": 49,
+      "execution_time": 3,
+      "relative_deadline": 3,
+      "absolute_deadline": 51,
+      "energy_demand": 12,
+      "preemptive": 1
+    },
+    {
+      "job_id": "p1_j10",
+      "task_id": "p1",
+      "release_time": 55,
+      "execution_time": 3,
+      "relative_deadline": 3,
+      "absolute_deadline": 57,
+      "energy_demand": 12,
+      "preemptive": 1
+    },
+    {
+      "job_id": "p1_j11",
+      "task_id": "p1",
+      "release_time": 61,
+      "execution_time": 3,
+      "relative_deadline": 3,
+      "absolute_deadline": 63,
+      "energy_demand": 12,
+      "preemptive": 1
+    },
+    {
+      "job_id": "p1_j12",
+      "task_id": "p1",
+      "release_time": 67,
+      "execution_time": 3,
+      "relative_deadline": 3,
+      "absolute_deadline": 69,
+      "energy_demand": 12,
+      "preemptive": 1
+    },
+    {
+      "job_id": "p2_j1",
+      "task_id": "p2",
+      "release_time": 2,
+      "execution_time": 2,
+      "relative_deadline": 6,
+      "absolute_deadline": 7,
+      "energy_demand": 10,
+      "preemptive": 1
+    },
+    {
+      "job_id": "p2_j2",
+      "task_id": "p2",
+      "release_time": 8,
+      "execution_time": 2,
+      "relative_deadline": 6,
+      "absolute_deadline": 13,
+      "energy_demand": 10,
+      "preemptive": 1
+    },
+    {
+      "job_id": "p2_j3",
+      "task_id": "p2",
+      "release_time": 14,
+      "execution_time": 2,
+      "relative_deadline": 6,
+      "absolute_deadline": 19,
+      "energy_demand": 10,
+      "preemptive": 1
+    },
+    {
+      "job_id": "p2_j4",
+      "task_id": "p2",
+      "release_time": 20,
+      "execution_time": 2,
+      "relative_deadline": 6,
+      "absolute_deadline": 25,
+      "energy_demand": 10,
+      "preemptive": 1
+    },
+    {
+      "job_id": "p2_j5",
+      "task_id": "p2",
+      "release_time": 26,
+      "execution_time": 2,
+      "relative_deadline": 6,
+      "absolute_deadline": 31,
+      "energy_demand": 10,
+      "preemptive": 1
+    },
+    {
+      "job_id": "p2_j6",
+      "task_id": "p2",
+      "release_time": 32,
+      "execution_time": 2,
+      "relative_deadline": 6,
+      "absolute_deadline": 37,
+      "energy_demand": 10,
+      "preemptive": 1
+    },
+    {
+      "job_id": "p2_j7",
+      "task_id": "p2",
+      "release_time": 38,
+      "execution_time": 2,
+      "relative_deadline": 6,
+      "absolute_deadline": 43,
+      "energy_demand": 10,
+      "preemptive": 1
+    },
+    {
+      "job_id": "p2_j8",
+      "task_id": "p2",
+      "release_time": 44,
+      "execution_time": 2,
+      "relative_deadline": 6,
+      "absolute_deadline": 49,
+      "energy_demand": 10,
+      "preemptive": 1
+    },
+    {
+      "job_id": "p2_j9",
+      "task_id": "p2",
+      "release_time": 50,
+      "execution_time": 2,
+      "relative_deadline": 6,
+      "absolute_deadline": 55,
+      "energy_demand": 10,
+      "preemptive": 1
+    },
+    {
+      "job_id": "p2_j10",
+      "task_id": "p2",
+      "release_time": 56,
+      "execution_time": 2,
+      "relative_deadline": 6,
+      "absolute_deadline": 61,
+      "energy_demand": 10,
+      "preemptive": 1
+    },
+    {
+      "job_id": "p2_j11",
+      "task_id": "p2",
+      "release_time": 62,
+      "execution_time": 2,
+      "relative_deadline": 6,
+      "absolute_deadline": 67,
+      "energy_demand": 10,
+      "preemptive": 1
+    },
+    {
+      "job_id": "p2_j12",
+      "task_id": "p2",
+      "release_time": 68,
+      "execution_time": 2,
+      "relative_deadline": 6,
+      "absolute_deadline": 73,
+      "energy_demand": 10,
+      "preemptive": 1
+    },
+    {
+      "job_id": "p3_j1",
+      "task_id": "p3",
+      "release_time": 1,
+      "execution_time": 3,
+      "relative_deadline": 3,
+      "absolute_deadline": 3,
+      "energy_demand": 14,
+      "preemptive": 0
+    },
+    {
+      "job_id": "p3_j2",
+      "task_id": "p3",
+      "release_time": 13,
+      "execution_time": 3,
+      "relative_deadline": 3,
+      "absolute_deadline": 15,
+      "energy_demand": 14,
+      "preemptive": 0
+    },
+    {
+      "job_id": "p3_j3",
+      "task_id": "p3",
+      "release_time": 25,
+      "execution_time": 3,
+      "relative_deadline": 3,
+      "absolute_deadline": 27,
+      "energy_demand": 14,
+      "preemptive": 0
+    },
+    {
+      "job_id": "p3_j4",
+      "task_id": "p3",
+      "release_time": 37,
+      "execution_time": 3,
+      "relative_deadline": 3,
+      "absolute_deadline": 39,
+      "energy_demand": 14,
+      "preemptive": 0
+    },
+    {
+      "job_id": "p3_j5",
+      "task_id": "p3",
+      "release_time": 49,
+      "execution_time": 3,
+      "relative_deadline": 3,
+      "absolute_deadline": 51,
+      "energy_demand": 14,
+      "preemptive": 0
+    },
+    {
+      "job_id": "p3_j6",
+      "task_id": "p3",
+      "release_time": 61,
+      "execution_time": 3,
+      "relative_deadline": 3,
+      "absolute_deadline": 63,
+      "energy_demand": 14,
+      "preemptive": 0
+    },
+    {
+      "job_id": "p4_j1",
+      "task_id": "p4",
+      "release_time": 3,
+      "execution_time": 2,
+      "relative_deadline": 12,
+      "absolute_deadline": 14,
+      "energy_demand": 16,
+      "preemptive": 0
+    },
+    {
+      "job_id": "p4_j2",
+      "task_id": "p4",
+      "release_time": 15,
+      "execution_time": 2,
+      "relative_deadline": 12,
+      "absolute_deadline": 26,
+      "energy_demand": 16,
+      "preemptive": 0
+    },
+    {
+      "job_id": "p4_j3",
+      "task_id": "p4",
+      "release_time": 27,
+      "execution_time": 2,
+      "relative_deadline": 12,
+      "absolute_deadline": 38,
+      "energy_demand": 16,
+      "preemptive": 0
+    },
+    {
+      "job_id": "p4_j4",
+      "task_id": "p4",
+      "release_time": 39,
+      "execution_time": 2,
+      "relative_deadline": 12,
+      "absolute_deadline": 50,
+      "energy_demand": 16,
+      "preemptive": 0
+    },
+    {
+      "job_id": "p4_j5",
+      "task_id": "p4",
+      "release_time": 51,
+      "execution_time": 2,
+      "relative_deadline": 12,
+      "absolute_deadline": 62,
+      "energy_demand": 16,
+      "preemptive": 0
+    },
+    {
+      "job_id": "p4_j6",
+      "task_id": "p4",
+      "release_time": 63,
+      "execution_time": 2,
+      "relative_deadline": 12,
+      "absolute_deadline": 74,
+      "energy_demand": 16,
+      "preemptive": 0
+    },
+    {
+      "job_id": "p5_j1",
+      "task_id": "p5",
+      "release_time": 1,
+      "execution_time": 2,
+      "relative_deadline": 12,
+      "absolute_deadline": 12,
+      "energy_demand": 8,
+      "preemptive": 1
+    },
+    {
+      "job_id": "p5_j2",
+      "task_id": "p5",
+      "release_time": 25,
+      "execution_time": 2,
+      "relative_deadline": 12,
+      "absolute_deadline": 36,
+      "energy_demand": 8,
+      "preemptive": 1
+    },
+    {
+      "job_id": "p5_j3",
+      "task_id": "p5",
+      "release_time": 49,
+      "execution_time": 2,
+      "relative_deadline": 12,
+      "absolute_deadline": 60,
+      "energy_demand": 8,
+      "preemptive": 1
+    },
+    {
+      "job_id": "p6_j1",
+      "task_id": "p6",
+      "release_time": 2,
+      "execution_time": 3,
+      "relative_deadline": 24,
+      "absolute_deadline": 25,
+      "energy_demand": 18,
+      "preemptive": 1
+    },
+    {
+      "job_id": "p6_j2",
+      "task_id": "p6",
+      "release_time": 26,
+      "execution_time": 3,
+      "relative_deadline": 24,
+      "absolute_deadline": 49,
+      "energy_demand": 18,
+      "preemptive": 1
+    },
+    {
+      "job_id": "p6_j3",
+      "task_id": "p6",
+      "release_time": 50,
+      "execution_time": 3,
+      "relative_deadline": 24,
+      "absolute_deadline": 73,
+      "energy_demand": 18,
+      "preemptive": 1
+    }
+  ]
+}

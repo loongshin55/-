@@ -1,0 +1,53 @@
+{
+  "log": [
+    {
+      "job_id": "s1",
+      "decision": "accept",
+      "scheduled_hours": [
+        8,
+        9
+      ],
+      "w": 10,
+      "reason": "sufficient slack in window"
+    },
+    {
+      "job_id": "s2",
+      "decision": "accept",
+      "scheduled_hours": [
+        20
+      ],
+      "w": 15,
+      "reason": "sufficient slack in window"
+    },
+    {
+      "job_id": "s3",
+      "decision": "accept",
+      "scheduled_hours": [
+        33,
+        34,
+        35
+      ],
+      "w": 8,
+      "reason": "sufficient slack in window"
+    },
+    {
+      "job_id": "s4",
+      "decision": "accept",
+      "scheduled_hours": [
+        45,
+        46
+      ],
+      "w": 20,
+      "reason": "sufficient slack in window"
+    },
+    {
+      "job_id": "s5",
+      "decision": "accept",
+      "scheduled_hours": [
+        58
+      ],
+      "w": 12,
+      "reason": "sufficient slack in window"
+    }
+  ]
+}
